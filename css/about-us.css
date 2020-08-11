@@ -1,0 +1,44 @@
+.about-us {
+  display: flex;
+  align-items: center;
+}
+
+.about-us__header {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .about-us__header {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-us__header {
+    font-size: 21px;
+  }
+}
+
+.about-us__paragraph {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+  .about-us__paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+.about-us__image {
+  width: 33%;
+  margin-left: 30px;
+}
+
+@media (max-width: 767px) {
+  .about-us__image {
+    display: none;
+  }
+}

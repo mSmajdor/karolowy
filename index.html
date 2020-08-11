@@ -20,16 +20,80 @@
     />
     <link href="/css/global.css" rel="stylesheet" />
     <link href="/css/container.css" rel="stylesheet" />
+    <link href="/css/navigation.css" rel="stylesheet" />
     <link href="/css/banner.css" rel="stylesheet" />
     <link href="/css/about-us.css" rel="stylesheet" />
   </head>
   <body>
+    <nav class="navigation">
+      <div class="navigation__inner">
+        <a href="#" class="navigation__logo">
+          <img
+            src="/images/icons/karolowy-logo.png"
+            class="navigation__logo-icon"
+          />
+          <div class="navigation__logo-text">
+            Pokoje & <br />
+            Apartamenty
+          </div>
+        </a>
+        <ul class="navigation__list js-navigation__list">
+          <li class="navigation__list-item">
+            <a href="#about-us" class="navigation__link">O nas</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#gallery" class="navigation__link">Galeria</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#contact" class="navigation__link">Kontakt</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#route" class="navigation__link">Znajdź nas</a>
+          </li>
+          <li class="navigation__list-item">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              class="navigation__link"
+            >
+              <img
+                src="/images/social/instagram.svg"
+                class="navigation__link-icon"
+              />
+            </a>
+          </li>
+          <li class="navigation__list-item">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              class="navigation__link"
+            >
+              <img
+                src="/images/social/facebook.svg"
+                class="navigation__link-icon"
+              />
+            </a>
+          </li>
+        </ul>
+        <button class="navigation__button js-navigation__button">
+          <img
+            src="/images/icons/navigation.svg"
+            class="navigation__button-icon"
+          />
+        </button>
+      </div>
+    </nav>
+
+    <script src="/js/script.js"></script>
+
     <section class="banner">
-      <a href="#about-us" class="banner__button">Poznaj nas lepiej</a>
+      <a href="#about-us" class="banner__button js-banner__button">
+        Poznaj nas lepiej
+      </a>
     </section>
 
     <div class="container">
-      <section class="about-us">
+      <section class="about-us" id="about-us">
         <div class="about-us__text">
           <h2 class="about-us__header">
             Jesteśmy czymś więcej niż tylko hotelem!

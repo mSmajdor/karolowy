@@ -1,0 +1,25 @@
+.banner {
+  background: url("/images/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.75);
+  border: 2px solid;
+  padding: 20px 30px;
+  transition: 0.3s;
+}
+
+.banner__button:hover {
+  background: rgba(0, 0, 0, 1);
+}

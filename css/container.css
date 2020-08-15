@@ -3,3 +3,7 @@
   margin: auto;
   padding: 60px 20px;
 }
+
+.container--smaller {
+  max-width: 940px;
+}

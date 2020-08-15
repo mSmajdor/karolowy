@@ -25,6 +25,7 @@
     <link href="/css/about-us.css" rel="stylesheet" />
     <link href="/css/bookmarks.css" rel="stylesheet" />
     <link href="/css/gallery.css" rel="stylesheet" />
+    <link href="/css/contact.css" rel="stylesheet" />
   </head>
   <body>
     <nav class="navigation">
@@ -217,6 +218,64 @@
         Porozmawiaj z nami lub zarezerwuj pokój
       </p>
     </section>
+
+    <form class="contact-form">
+      <div class="container container--smaller">
+        <div class="contact-form__info">
+          <div class="contact-form__info-item">
+            <a href="mailto:kontakt@hotel.pl" class="contact-form__info-link">
+              <img
+                src="/images/icons/envelope.svg"
+                alt="E-mail"
+                class="contact-form__info-icon"
+              />
+              kontakt@hotel.pl
+            </a>
+          </div>
+          <div class="contact-form__info-item">
+            <a href="tel:1234567890" class="contact-form__info-link">
+              <img
+                src="/images/icons/phone.svg"
+                alt="E-mail"
+                class="contact-form__info-icon"
+              />
+              123 456 7890
+            </a>
+          </div>
+        </div>
+
+        <p class="contact-form__header">
+          Jeśli nie znalazłeś na naszej stronie informacji, których
+          potrzebujesz,<br />
+          wyślij formularz kontaktowy lub zadzwoń.<br />
+          Chętnie z tobą porozmawiamy i odpowiemy na wszystkie pytania.
+        </p>
+
+        <div class="contact-form__fields">
+          <input
+            name="name"
+            placeholder="Imię i nazwisko"
+            required
+            class="contact-form__field"
+          />
+          <input
+            name="email"
+            type="email"
+            placeholder="Adres e-mail"
+            required
+            class="contact-form__field"
+          />
+          <textarea
+            name="content"
+            placeholder="Text wiadomości"
+            rows="10"
+            required
+            class="contact-form__field contact-form__field--full-row"
+          ></textarea>
+        </div>
+        <button class="contact-form__submit-button">Wyślij</button>
+      </div>
+    </form>
 
     <section class="bookmark bookmark--route">
       <h2 class="bookmark__header">Jak dojechać</h2>

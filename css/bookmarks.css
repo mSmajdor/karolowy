@@ -7,19 +7,19 @@
 }
 
 .bookmark--gallery {
-  background: url("/images/bookmarks/gallery.jpg");
+  background: url("images/bookmarks/gallery.jpg");
   background-position: center center;
   background-size: cover;
 }
 
 .bookmark--contact {
-  background: url("/images/bookmarks/contact.jpg");
+  background: url("images/bookmarks/contact.jpg");
   background-position: center 30%;
   background-size: cover;
 }
 
 .bookmark--route {
-  background: url("/images/bookmarks/route.jpg");
+  background: url("images/bookmarks/route.jpg");
   background-position: center 60%;
   background-size: cover;
 }
